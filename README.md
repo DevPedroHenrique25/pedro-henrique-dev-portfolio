@@ -6,6 +6,9 @@
 
 ---
 
+## 🎥 Preview
+![Preview Desktop](./git.png)
+
 ## 📌 Sobre o Projeto
 
 Este é meu terceiro portfólio, desenvolvido com o objetivo de apresentar minha evolução técnica e posicionamento profissional de forma clara e estratégica.
@@ -74,4 +77,5 @@ Email: dev.pedrohenrique.contato@gmail.com
 
 <p align="center">
   Desenvolvido por Pedro Henrique
+
 </p>
