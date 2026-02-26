@@ -128,12 +128,11 @@ h2{font-size: 48px;text-align: center;color: white;padding: 15px 0;}
 
 
 .btn-blue{
-    width: 260px;
+    width: 160px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-
   padding: 12px 18px;
   border-radius: 12px;
 
@@ -356,10 +355,8 @@ body.menu-open{
 }
 
 section.home {
-  padding-top:180px;
-  padding-bottom: 60px;
+  padding: 180px 2%;
   min-height: 100vh;
-
   background: linear-gradient(
     135deg,
     #070527 0%,
@@ -368,6 +365,13 @@ section.home {
     #013a22 100%
   );
 }
+
+
+section.home .container{
+  padding: 0 2%;           
+  align-items: center;
+}
+
 section.home h1{
     color: white;
     margin-top: 2%;
@@ -389,9 +393,9 @@ section.home img{
 }
 
 section.home p{
-    margin: 20px 0;
+    margin: 20px 2%;
     font-size: 20px;
-    color: #ccc;
+    color: #ccc;  
 }
 
 /*Diferencial*/
@@ -498,7 +502,7 @@ footer{
   }
 
   section.home .container{
-    gap: 28px;
+    gap: 20px;
   }
 
   section.home h1{
@@ -522,12 +526,13 @@ footer{
   /* botões em coluna */
   .btn-blue,
   .btn-border-blue{
-    width: 420px;
-    margin: 8px 0;
+    width: 100%;
+    max-width: 160px; 
+    margin: 8px auto;
   }
 
   .btn-black{
-    width: 100%;
+    width: auto;
     max-width: 120px;
     margin-top: 8px;
   }
