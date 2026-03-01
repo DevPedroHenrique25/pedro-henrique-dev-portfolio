@@ -393,7 +393,7 @@ section.home img{
 }
 
 section.home p{
-    margin: 20px 2%;
+    margin: 20px 0;
     font-size: 20px;
     color: #ccc;  
 }
@@ -497,7 +497,7 @@ footer{
 
   /* HERO */
   section.home{
-    padding: 15% 6%;
+    padding: 15% 0;
     text-align: center;
   }
 
