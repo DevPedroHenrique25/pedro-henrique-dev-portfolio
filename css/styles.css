@@ -427,6 +427,10 @@ section.projetos{
   min-height: 100vh;
 }
 
+section.projetos .container{
+  flex-wrap: wrap;
+}
+
 /*objetivo*/
 section.objetivo{background-color: #111827;padding: 30px;height: 70vh;}
 section.contato{min-height: 50vh;}
